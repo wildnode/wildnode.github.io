@@ -1,3 +1,12 @@
+body {
+  background-color: #fff;
+  padding:50px;
+  font: 15px/1.5 /*"Noto Sans",*/ "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:300;
+}
+
+
 div.centered {
 	margin-left: auto;
 	margin-right: auto;
@@ -17,4 +26,86 @@ img.centered  {
 
 .rd-logo {
 	max-width: 200px;
+}
+
+section.content {
+	width: 100%;
+}
+
+div.project-item {
+	width: 170px;
+	height: 120px;
+	margin-top: 0;
+	background-color: #f4f4f4;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #dfdfdf;
+	padding: 20px;
+}
+
+ul.project-item {
+	margin: 0;
+	display: inline-block;
+	padding: 0;
+	border-style: none;
+	}
+
+.project-item li {
+	display: inline-block;
+	margin-right: 35px;
+	margin-bottom: 35px;
+}
+
+div.project-item:active {
+  background-color: #eaeaea;
+}
+
+
+div.project-title {
+	color: #515151;
+	font-size: 22px;
+}
+
+div.project-subtitle {
+  color: #919191;
+  overflow: hidden;
+  text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+div.project-description {
+	color: #a6c1d4;
+	font-size: 13px;
+	line-height: 15px;
+	margin-top: 5px;
+	height: 65px;
+
+
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  line-height: 20px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+  
+header li img {
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+}
+
+.header-github-btn {
+	width: 33%;
+}
+.header-wildnode-btn {
+	width: 66%;
+}
+.project-icon {
+	float: left;
+	width: 55px;
+	margin-right: 10px;
 }
